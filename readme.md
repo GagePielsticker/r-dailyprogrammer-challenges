@@ -1,3 +1,4 @@
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/JamesPielstickerPortfolio/r-dailyprogrammer-challenges/blob/master/LICENSE.md) 
 # Daily Programming Challenges
 
 ## Preface
@@ -13,4 +14,6 @@
 
 **EASY CHALLENGES**
 
-[Challenge #1](https://github.com/JamesPielstickerPortfolio/r-dailyprogrammer-challenges/tree/main/Challenge-%231%20%5BEasy%5D) - User Input + Logging
+**[Challenge #1](https://github.com/JamesPielstickerPortfolio/r-dailyprogrammer-challenges/tree/main/Challenge-%231%20%5BEasy%5D)**
+**Language** - `NodeJS`
+**Topics** - `User Input + Logging`
