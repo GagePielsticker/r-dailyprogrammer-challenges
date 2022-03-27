@@ -22,15 +22,15 @@ const prompt = str => {
     })
 }
 
-//Make execution async and call our functions
+/* Make execution async and call our functions */
 const main = async () => {
 
-    //Call our methods
+    /* Call our methods */
     let name = await prompt('What is your name?')
     let age = await prompt('What is your age?')
     let username = await prompt('What is your username?')
 
-    inputInterface.close() //Close our interface
+    inputInterface.close() // Close our interface
 
     let output = `Your name is ${name}, you are ${age} years old, and your username is ${username}.`
     console.log(output)
