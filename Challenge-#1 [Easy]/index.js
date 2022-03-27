@@ -8,45 +8,27 @@ const inputInterface = require('readline').createInterface({
     output: process.stdout
 })
 
-
 /* 
     We must make the prompts execute asynchronously,
     to do this we are making them promise based,
     and executing them in an async method instead of stacking callbacks.
     This avoids unecessary nesting and keeps our work clean.
 */
-const promptName = () => {
+const prompt = str => {
     return new Promise((resolve, reject) => {
-        inputInterface.question('What is your name?\n', name => {
-            resolve(name)
+        inputInterface.question(`${str}\n`, data => {
+            resolve(data)
         })
     })
 }
-
-const promptAge = () => {
-    return new Promise((resolve, reject) => {
-        inputInterface.question('What is your age?\n', age => {
-            resolve(age)
-        })
-    })
-}
-
-const promptUsername = () => {
-    return new Promise((resolve, reject) => {
-        inputInterface.question('What is your username?\n', username => {
-            resolve(username)
-        })
-    })
-}
-
 
 //Make execution async and call our functions
 const main = async () => {
 
     //Call our methods
-    let name = await promptName()
-    let age = await promptAge()
-    let username = await promptUsername()
+    let name = await prompt('What is your name?')
+    let age = await prompt('What is your age?')
+    let username = await prompt('What is your username?')
 
     inputInterface.close() //Close our interface
 
