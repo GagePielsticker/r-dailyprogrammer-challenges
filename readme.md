@@ -7,3 +7,4 @@
 
 - Each subfolder of this repo will have a readme describing that challenge.
 - Each folder will be named as is in the reddit threads along with difficulty.
+- The goal is to use as few dependencies as possible.
