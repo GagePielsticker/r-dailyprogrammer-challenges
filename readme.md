@@ -18,7 +18,7 @@
 
 **EASY CHALLENGES**
 
-**[Challenge #001](https://github.com/JamesPielstickerPortfolio/r-dailyprogrammer-challenges/tree/main/Challenge-%231%20%5BEasy%5D)** - `NodeJS` - `User Input + Logging`
+**[Challenge #001](https://github.com/JamesPielstickerPortfolio/r-dailyprogrammer-challenges/tree/main/Challenge-%23001%20%5BEasy%5D)** - `NodeJS` - `User Input + Logging`
 
-**[Challenge #076](https://github.com/JamesPielstickerPortfolio/r-dailyprogrammer-challenges/tree/main/Challenge-%2376%20%5BEasy%5D)** - `NodeJS` - `String Manipulation & Title Case`
+**[Challenge #076](https://github.com/JamesPielstickerPortfolio/r-dailyprogrammer-challenges/tree/main/Challenge-%23076%20%5BEasy%5D)** - `NodeJS` - `String Manipulation & Title Case`
 
