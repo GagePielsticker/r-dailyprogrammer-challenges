@@ -1,5 +1,6 @@
 # Challenge 1
 **Difficulty** `Easy`
+**Language** `NodeJS`
 
 ## Prompt
 
