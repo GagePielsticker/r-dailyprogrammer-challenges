@@ -12,8 +12,13 @@
 
 ## Index
 
+**INTERMEDIATE CHALLENGES**
+
+**[Challenge #245](https://github.com/JamesPielstickerPortfolio/r-dailyprogrammer-challenges/tree/main/Challenge-%23245%20%5BIntermediate%5D)** - `NodeJS` - `Custom String Encryption & Decryption`
+
 **EASY CHALLENGES**
 
-**[Challenge #1](https://github.com/JamesPielstickerPortfolio/r-dailyprogrammer-challenges/tree/main/Challenge-%231%20%5BEasy%5D)** - `NodeJS` - `User Input + Logging`
+**[Challenge #001](https://github.com/JamesPielstickerPortfolio/r-dailyprogrammer-challenges/tree/main/Challenge-%231%20%5BEasy%5D)** - `NodeJS` - `User Input + Logging`
 
-**[Challenge #76](https://github.com/JamesPielstickerPortfolio/r-dailyprogrammer-challenges/tree/main/Challenge-%2376%20%5BEasy%5D)** - `NodeJS` - `String Manipulation & Title Case`
+**[Challenge #076](https://github.com/JamesPielstickerPortfolio/r-dailyprogrammer-challenges/tree/main/Challenge-%2376%20%5BEasy%5D)** - `NodeJS` - `String Manipulation & Title Case`
+
