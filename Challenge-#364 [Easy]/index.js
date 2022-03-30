@@ -1,3 +1,5 @@
+'use strict'
+
 /* User Input */
 let input = '3d6'
 
