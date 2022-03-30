@@ -22,3 +22,5 @@
 
 **[Challenge #076](https://github.com/JamesPielstickerPortfolio/r-dailyprogrammer-challenges/tree/main/Challenge-%23076%20%5BEasy%5D)** - `NodeJS` - `String Manipulation & Title Case`
 
+**[Challenge #364](https://github.com/GagePielsticker/r-dailyprogrammer-challenges/tree/main/Challenge-%23364%20%5BEasy%5D)** - `NodeJS` - `String Manipulation/Parsing`
+
