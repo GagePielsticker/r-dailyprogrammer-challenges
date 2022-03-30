@@ -37,6 +37,23 @@ const decode = (encoded, key) => {
 }
 
 /**
+ * Generates random string of length <strength> using array <arr>
+ * @param {Array<String>} arr  Array of possible entries
+ * @param {Int} strength Length 
+ * @returns 
+ */
+const randomEntrySelector = (arr, strength) => {
+    let generatedCipher = ''
+
+    /* generate our intial random cipher */
+    for(let i = 0; i <= strength; i++){
+        generatedCipher += arr[Math.floor(Math.random() * arr.length)]
+    }
+
+    return generatedCipher
+}
+
+/**
  * Encodes text into a GGG cipher
  * @param {String} str 
  * @param {Integer} strength 
@@ -56,19 +73,11 @@ const encode = (str, strength) => {
         if(!letter.match(/[a-z]/i)) return outputString += letter // If the character is not a letter, return and append it to output
         if(translationArray.find(obj => obj.key == letter)) return outputString += translationArray.find(obj => obj.key == letter).cipher // If the letter has a cipher already, append it and return
 
-        let generateCipher = '' //Temp Cipher Store
-
-        /* generate our intial random cipher */
-        for(let i = 0; i <= strength; i++){
-            generateCipher += possibilities[Math.floor(Math.random() * possibilities.length)]
-        }
+        let generateCipher = randomEntrySelector(possibilities, strength) //Temp Cipher Store
 
         /* If our cipher exist in the array for another letter, generate a new one and check again */
         while(translationArray.find(obj => obj.cipher == generateCipher)) {
-            generateCipher = ''
-            for(let i = 0; i <= strength; i++){
-                generateCipher += possibilities[Math.floor(Math.random() * possibilities.length)]
-            }
+            generateCipher = randomEntrySelector(possibilities, strength)
         }
 
         //Once we are sure we have a letter thats not existant, and cipher thats unique, push to array as object
